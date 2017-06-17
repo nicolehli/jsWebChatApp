@@ -1,6 +1,11 @@
 # jsWebChatApp
 Simple chat application to learn web programming.
 
+### Built With
+
+* [socket.io](http://socket.io/) - The web application framework used for server (Node) and client (browser) communication
+* [Espress](https://expressjs.com) - The web application framework used for web server
+
 ### Getting Started
 
 First, we need to have the Node server running. 
@@ -15,7 +20,8 @@ Second, we need the chat application
 *Disclaimer:* newcomers to the chat room cannot see previous messages
 
 ### Screenshot(s)
-I'll add screenshots here later.
+I'll add screenshots here later.  
+- Use this markdown later to add photo >>> [alt text](http://url/to/img.png)
 
 ### Acknowledgements
 * Project following <i>JavaScript Essentials</i> tutorial created David VanDusen with Lighthouse Lab
