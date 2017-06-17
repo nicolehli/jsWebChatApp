@@ -6,8 +6,8 @@ var socket = io();
 
 /* send text message to server */
 $('form').submit(function () {
-  var text = $('#message').val();
-  socket.emit('message', text);  // send text message to server
+  var text = $('#initials').val() + ' says: ' + $('#message').val();
+  socket.emit('message', text);  // emit (send) text message to server
   $('#message').val('');  // clear input for next message
   return false;
 });
