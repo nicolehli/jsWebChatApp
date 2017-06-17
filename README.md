@@ -9,14 +9,15 @@ First, we need to have the Node server running.
 
 Second, we need the chat application
 * from a browser, go to ```localhost:8080 ```
-* from a second browser (or new tab in the first browser), we can bring up another ```http://localhost:8080
+* from a second browser (or new tab in the first browser), we can bring up another ```http://localhost:8080```
 * now first browser can chat with the second browser through the chat application
 
-Disclaimer: newcomers to the chat room cannot see previous messages
+*Disclaimer:* newcomers to the chat room cannot see previous messages
 
 ### Screenshot(s)
+I'll add screenshots here later.
 
-### Inspirations
+### Acknowledgements
 * Project following <i>JavaScript Essentials</i> tutorial created David VanDusen with Lighthouse Lab
-* Used [PurpleBooth's Readme Template](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2)
-* Used [GitHub Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
+* Read through [PurpleBooth's Readme Template](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2)
+* Read through [GitHub Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
