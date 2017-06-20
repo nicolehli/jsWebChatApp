@@ -13,7 +13,7 @@ First, we need to have the Node server running.
 
 Second, we need the chat application
 * from a browser, bring up a client with ```localhost:8080 ```
-* from another browser (or new tab), bring up another client with ```http://localhost:8080```
+* from another browser (or new tab), bring up another client with ```localhost:8080```
 * the two clients can chat
 
 *Disclaimer:* newcomers to the chat room cannot see previous messages (FUTURE BUG FIX COMING)
