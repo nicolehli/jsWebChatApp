@@ -4,6 +4,7 @@
 /* loading external modules */
 var express = require('express');
 var app = express();
+var chatHistory = [];
 
 var http = require('http');
 var server = http.Server(app);
@@ -17,6 +18,7 @@ var io = require('socket.io')(server);
 io.on('connection', function (socket) {
   socket.on('message', function (msg) {
     io.emit('message', msg);
+    chatHistory.push(msg);
   });
 });
 
