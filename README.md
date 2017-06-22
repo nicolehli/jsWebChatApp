@@ -8,19 +8,14 @@ Simple chat application to learn web programming.
 
 ### Getting Started
 
-First ```npm install socket.io``` and ```npm install express```
+First ```npm install socket.io``` and ```npm install express```.
 
-Then, we need to have the Node server running. Run ```node server.js```
+Then, we need to have the Node server running. Run ```node server.js```.
 
-Second, we need the chat application
-* from a Web browser, bring up a client with ```localhost:8080 ```
-* from another browser (or new tab), bring up another client with ```localhost:8080```
-* the two clients can chat
-
-*Disclaimer:* newcomers to the chat room cannot see previous messages (FUTURE BUG FIX COMING)
+Finally, launch the chat application from a Web browser with URL ```localhost:8080 ``` and another client from another browser (or new tab). Now the two chat clients can talk to each other.
 
 ### Screenshot(s)
-[Screenshot](jsWebChatApp1.png) 
+![web app screenshot](jsWebChatApp1.png)
 
 ### Acknowledgements
 * Followed [JavaScript Essentials](https://github.com/lighthouse-labs/gitbook-node-chat-tutorial) tutorial created David VanDusen
