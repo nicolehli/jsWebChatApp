@@ -19,10 +19,9 @@ Second, we need the chat application
 *Disclaimer:* newcomers to the chat room cannot see previous messages (FUTURE BUG FIX COMING)
 
 ### Screenshot(s)
-I'll add screenshots here later.  
-- Use this markdown later to add photo >>> [alt text](http://url/to/img.png)
+[Web Client 1](jsWebChatApp1.png)  [Web Client 2](jsWebChatApp2.png)
 
 ### Acknowledgements
-* Project following <i>JavaScript Essentials</i> tutorial created David VanDusen with Lighthouse Lab
+* Followed [JavaScript Essentials](https://github.com/lighthouse-labs/gitbook-node-chat-tutorial) tutorial created David VanDusen
 * Read through [PurpleBooth's Readme Template](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2) to create readme
 * Read through [GitHub Mastering Markdown](https://guides.github.com/features/mastering-markdown/) to create readme
