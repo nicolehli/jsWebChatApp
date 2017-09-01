@@ -23,4 +23,4 @@ Finally, launch the chat application from a Web browser with URL ```localhost:80
 * Followed [JavaScript Essentials](https://github.com/lighthouse-labs/gitbook-node-chat-tutorial) tutorial created David VanDusen
 * Read through [PurpleBooth's Readme Template](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2) to create readme
 * Read through [GitHub Mastering Markdown](https://guides.github.com/features/mastering-markdown/) to create readme
-* [lebentle][http://github.com/lebentle] for her help looking at server.js to fix stretch goal 3 bug
+* [lebentle](http://github.com/lebentle) for her help looking at server.js to fix stretch goal 3 bug
