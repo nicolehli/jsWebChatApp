@@ -29,14 +29,14 @@ li:nth-child(odd) {
 }
 
 form {
-  background-color: lightsteelblue;
+  background-color: #e5c7fa;
   border-radius: 6px;
   margin: 0;
   padding: 10px;
 }
 
 button {
-  background-color: SteelBlue;
+  background-color: #8f5fd5;
   border: none;
   border-radius: 3px;
   color: white;

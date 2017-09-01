@@ -9,6 +9,7 @@ $('form').submit(function () {
   var text = $('#initials').val() + ' says: ' + $('#message').val();
   socket.emit('message', text);  // emit (send) text message to server
   $('#message').val('');  // clear input for next message
+  $('#initials').val('');
   return false;
 });
 

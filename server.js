@@ -9,9 +9,6 @@ var chatHistory = [];
 var http = require('http');
 var server = http.Server(app);
 
-/* Chatroom */
-var numUsers = 0;
-
 /* Routing - server all static content from the client folder */
 app.use(express.static('client'));
 
@@ -20,9 +17,12 @@ var io = require('socket.io')(server);
 
 io.on('connection', function (socket) {
 
+  // FIXME FIXED bug all user get history, only new user should get history of chat
   if (chatHistory.length != 0) {
     for(var i = 0; i < chatHistory.length; i++)
-        io.emit('message', chatHistory[i]);
+        //io.emit('message', chatHistory[i]);
+        // using socket.emit instead of io.emit to not emit to everyone
+        socket.emit('message', chatHistory[i]);
   }
 
   // tell client we have new messages, this listens and executes
