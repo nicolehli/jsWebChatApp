@@ -4,7 +4,7 @@ Simple chat application to learn web programming.
 ### Built With
 
 * [socket.io](http://socket.io/) - The web application framework used for server (Node) and client (browser) communication
-* [Espress](https://expressjs.com) - The web application framework used for web server
+* [Express](https://expressjs.com) - The web application framework used for web server
 
 ### Getting Started
 
